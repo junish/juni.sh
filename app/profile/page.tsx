@@ -3,7 +3,6 @@ import Link from 'next/link';
 export default function Profile() {
   return (
     <div>
-      <div className="header">Header</div>
       <ul className="mainContents">
         <li>Full-stack engineer, but mainly front-end engineer</li>
         <li>JavaScript, React, Vue, Python, Golang</li>
@@ -13,7 +12,6 @@ export default function Profile() {
       <ul className="links">
         <li><Link href="/">Go to Home</Link></li>
       </ul>
-      <div className="footer">Foolter</div>
     </div>
   );
 }
