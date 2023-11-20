@@ -17,11 +17,28 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.header {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #333;
+}
+
+.mainContents {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #333;
+}
+
+.links {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #333;
+}
+
+.footer {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #333;
 }
