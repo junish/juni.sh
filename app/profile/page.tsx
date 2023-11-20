@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function Profile() {
   return (
     <div>
@@ -10,7 +8,7 @@ export default function Profile() {
         <li>Plaid, Inc.</li>
       </ul>
       <ul className="links">
-        <li><Link href="/">Go to Home</Link></li>
+        <li><a href="/">Go to Home</a></li>
       </ul>
     </div>
   );
